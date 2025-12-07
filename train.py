@@ -7,7 +7,7 @@ import torch.distributed as dist
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from nets.arcface import Arcface
+
 from nets.arcface_training import get_lr_scheduler, set_optimizer_lr
 from utils.callback import LossHistory
 from utils.dataloader import FacenetDataset, LFWDataset, dataset_collate
